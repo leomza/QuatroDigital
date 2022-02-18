@@ -1,0 +1,216 @@
+/********************* New Account ***********************************/
+
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+
+.container {
+  position: relative !important;
+  width: 856px !important;
+  font-family: "ABeeZee" !important;
+}
+
+.logo {
+  margin-top: 40px;
+}
+
+.container__text {
+  margin-top: 50px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.4px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.container__text--color {
+  color: #ff002b;
+}
+
+.userinfo__text {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 21px;
+  margin: 0px !important;
+}
+
+.userinfo__container {
+  margin-top: 40px;
+  width: 709px;
+}
+
+.userinfo__container__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userinfo__login {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.userinfo__button {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: #dc373f;
+}
+
+.form__input {
+  margin-right: 3%;
+}
+
+.shipping__container {
+  width: 709px;
+}
+
+.newsletter__container {
+  margin-top: 49px;
+}
+
+.form__checkbox {
+  margin-left: 1%;
+}
+
+.newsletter__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.shipping__text {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 21px;
+  margin-top: 37.33px !important;
+  margin-bottom: 0px !important;
+}
+
+.form__input__city {
+  width: 230% !important;
+}
+
+.form__input__phoneNumber {
+  width: 48.5% !important;
+}
+
+.button__form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68.24px;
+}
+
+.button__return {
+  background: none;
+  border: none;
+  color: #dc373f;
+}
+
+.button__options {
+  background: #dc373f !important;
+  padding: 14px 45.6px 14px 48px !important;
+  border: none !important;
+  box-shadow: 2px 5px 4px #888888;
+}
+
+/********************* Modal ***********************************/
+
+.show {
+  background: #888989 !important;
+}
+
+.modal-content {
+  width: 605px !important;
+  color: #1f3813 !important;
+}
+
+.modal-dialog {
+  margin-top: 159px !important;
+  margin-right: 66px !important;
+}
+
+.modal-header {
+  margin: auto;
+  border: none !important;
+  padding: 0px !important;
+}
+
+.btn-close--circle {
+  background: white;
+  width: 30px;
+  height: 30px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.btn-close {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.modal__title--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.modal__logo {
+  width: 74px;
+  height: 83px;
+}
+
+.modal__title {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 61px;
+}
+
+.modal__container__form {
+  margin: auto;
+  width: 100%;
+  padding: 25px 70px 60px 70px;
+}
+
+.modal__button {
+  background: #dc373f !important;
+  padding: 14px 45.6px 14px 48px !important;
+  border: none !important;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.modal__form {
+  margin-bottom: 19px;
+}
+
+.modal__button--password {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/********************* Spinner ***********************************/
+.spinner__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.spinner__image {
+  width: 250px;
+  height: 250px;
+}
